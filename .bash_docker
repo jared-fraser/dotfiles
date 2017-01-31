@@ -9,6 +9,7 @@ function docker_alias() {
 
 alias vue='docker_alias /directory jaredfraser/vue-cli vue'
 alias yarn='docker_alias /directory jaredfraser/yarn yarn'
+alias php71='docker_alias /directory php:7.1-cli php'
 
 # Get latest container ID
 alias dl="docker ps -l -q"
